@@ -1,0 +1,48 @@
+.movieHeader1 {
+  font-family: 'Roboto';
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(142, 57, 135);
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+  padding: 5px;
+}
+.movieHeaderDiv1 {
+  display: flex;
+  justify-content: center;
+}
+.castUlDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+  justify-content: center;
+  color: rgb(8, 34, 44);
+}
+.castliElemnt {
+  width: 300px;
+  padding: 20px;
+  background: linear-gradient(135deg, rgb(121, 116, 84), #c98cbd);
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.imgforCast {
+  height: 100px;
+  width: 80px;
+  border-radius: 10px;
+}
+.castcontantDiv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}

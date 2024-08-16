@@ -1,0 +1,31 @@
+.blog-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-link {
+  color: aliceblue;
+  margin: 10px;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: rgb(80, 80, 183);
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+.hrforHeader {
+  color: black;
+  width: 90vw;
+  text-align: center;
+}
+.blog-title{
+  color: darkcyan;
+  font-size: 33px;
+  font-weight: bolder;
+}

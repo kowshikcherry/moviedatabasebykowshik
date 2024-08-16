@@ -1,0 +1,36 @@
+.movieHeader {
+  font-family: 'Roboto';
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(142, 57, 135);
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+  padding: 5px;
+}
+.movieHeaderDiv {
+  display: flex;
+  justify-content: center;
+}
+.singlemainDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.singleimg {
+  height: 70vh;
+  width: 40vw;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.384);
+}
+.singlecontantDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 40px;
+  color: rgb(8, 34, 44);
+}
